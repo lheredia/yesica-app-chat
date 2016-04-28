@@ -1,0 +1,121 @@
+.app-chat-chats-list .x-innerhtml
+{
+    height: 68px;
+}
+
+.app-chat-chats-list .azul
+{
+    background: #2074EF;
+}
+
+.app-chat-chats-list .rojo
+{
+    background: #DA4453;
+}
+
+.app-chat-chats-list .amarillo
+{
+    background: #F6BB42;
+}
+
+.app-chat-chats-list .gris
+{
+    background: #434A54;
+}
+
+.app-chat-chats-list .avatar
+{
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.app-chat-chats-list .wrapper
+{
+    margin-left: 68px;
+}
+
+.app-chat-chats-list .nombre
+{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Roboto medium';
+}
+
+.app-chat-chats-list .ultimoMensaje,
+.app-chat-chats-list .horaUltimoMensaje
+{
+    font-size: 14px;
+    color: #585959;
+}
+
+.app-chat-chats-list .horaUltimoMensaje
+{
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+
+
+/* chat  */
+
+.app-chat-chats-window .x-dock-body
+{
+    
+}
+
+.x-list-item.x-list-item-tpl, .x-list-item .x-dock-horizontal,
+.x-list-item.x-list-item-tpl.x-list-footer-wrap, .x-list-item.x-list-footer-wrap .x-dock-horizontal
+{
+    border: none;
+}
+
+.app-chat-chats-window .x-list-item.x-list-item-tpl, 
+.app-chat-chats-window .x-list-item .x-dock-horizontal
+{
+    background: transparent;
+}
+
+.x-dock.x-sized,
+.x-dock.x-sized > .x-dock-body > *,
+.x-dock.x-sized > .x-dock-body > .x-body > .x-inner
+{
+    background-image: url(../img/chatBackground.jpg);
+}
+
+.app-chat-chats-window .wrapper
+{
+    border-radius: 7.5px;
+    box-shadow: 0 1px 0.5px rgba(0, 0, 0, 0.13);
+    position: relative;
+}
+
+.app-chat-chats-window .wrapper:before
+{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 10px;
+    height: 10px;
+}
+
+.app-chat-chats-window .bubble
+{
+    padding: 6px 7px 8px 9px;
+}
+
+.app-chat-chats-window .wrapper.no
+{
+    background-color: #fff;
+    margin-right: 20%;
+}
+
+.app-chat-chats-window .wrapper.si
+{
+    background-color: #DCF8C6;
+    margin-left: 20%;
+}
